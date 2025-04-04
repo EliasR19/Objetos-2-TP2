@@ -59,7 +59,7 @@ public class Main {
 		//recibos
 		System.out.println(empresa.liquidacionSueldos());
 	
-	//s
+
 	}
 
 }

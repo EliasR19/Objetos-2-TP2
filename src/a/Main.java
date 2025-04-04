@@ -53,8 +53,8 @@ public class Main {
 		Retenciones retenciones = new Retenciones();
 		
 		System.out.println("\nTotalNetos: " + empresa.calcularMontoEmpleados(neto));
-		System.out.println("TotalNetos: " + empresa.calcularMontoEmpleados(bruto));
-		System.out.println("TotalNetos: " + empresa.calcularMontoEmpleados(retenciones));
+		System.out.println("TotalBruto: " + empresa.calcularMontoEmpleados(bruto));
+		System.out.println("TotalRetenciones: " + empresa.calcularMontoEmpleados(retenciones));
 		
 		//recibos
 		System.out.println(empresa.liquidacionSueldos());

@@ -11,7 +11,6 @@ public class PlantaPermanente extends Empleado {
 		super(nombre, direccion, estadoCivil, fecNac);
 		this.cantHijos = cantHijos;
 		this.antiguedad = antiguedad;
-		// TODO Auto-generated constructor stub
 	}
 	
 	
@@ -27,7 +26,6 @@ public class PlantaPermanente extends Empleado {
 	@Override
 	//sueldo bruto
 	public float sueldoBruto() {
-		// TODO Auto-generated method stub
 		return this.getSueldoBasico() + salarioFamiliar();
 	}
 

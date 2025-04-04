@@ -10,7 +10,7 @@ public class PlantaTemporaria extends Empleado{
 	public PlantaTemporaria(String nombre, String direccion, String estadoCivil, LocalDate fecNac, LocalDate fecFinDesignacion) {
 		super(nombre, direccion, estadoCivil, fecNac);
 		this.fecFinDesignacion = fecFinDesignacion;
-		this.cantHorasExtras = cantHorasExtras;
+		this.cantHorasExtras = 0;
 		
 	}
 	

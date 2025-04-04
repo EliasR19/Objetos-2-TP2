@@ -3,6 +3,7 @@ package a;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Empresa {
 	private List<Empleado> empleados = new ArrayList<Empleado>();
 	private String nombre;
@@ -68,7 +69,7 @@ public class Empresa {
 	}
 	
 	
-	//otra alternativa
+	//otra alternativam
 	
 	
 	public float calcularMontoEmpleados(TipoCalculo tipo) { //mandar un parametro que sea el tipo de cosa a calcular
@@ -76,6 +77,10 @@ public class Empresa {
 		for(Empleado e : empleados) {
 			total = total + tipo.get(e); //tipoDeCosaACalcular(e)
 		}
+		
+		
+		//se puede hacer de esta forma tambien.
+		//total = empleados.stream().map(e -> tipo.get(e)).reduce(0.0f, (e, t) -> e + t);
 		return total;
 		
 	}
